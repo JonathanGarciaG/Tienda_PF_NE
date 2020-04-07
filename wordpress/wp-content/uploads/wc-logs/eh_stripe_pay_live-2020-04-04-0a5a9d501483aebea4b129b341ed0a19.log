@@ -1,0 +1,68 @@
+2020-04-04T08:40:38+00:00 DEBUG <------------------- ExtensionHawk Stripe Payment ( Los Ficos - Charge - Order #221 ) ------------------->
+stdClass Object
+(
+    [id] => ch_1GU7YPDwlT5l3TeTjhKvFuTX
+    [amount] => 60
+    [amount_refunded] => 0
+    [currency] => MXN
+    [order_amount] => 60.00
+    [order_currency] => MXN
+    [captured] => Captured
+    [transaction_id] => txn_1GU7YQDwlT5l3TeTuUCkDRWH
+    [mode] => Test
+    [metadata] => stdClass Object
+        (
+            [order_id] => 221
+            [Total Tax] => 0
+            [Total Shipping] => 0.00
+            [Customer IP] => 189.219.76.115
+            [Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+            [Referer] => https://www.jggworks.me/Wordpress_examen_NE/wordpress/index.php/checkout/
+            [WP customer #] => 1
+            [Billing Email] => sb-2vw47h1277314@personal.example.com
+            [Products] => Mayonesa | 
+        )
+
+    [created] => 2020-04-04 08:40:37
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( credit )
+    [status] => succeeded
+    [origin_time] => 2020-04-04 08:40:38
+)
+
+2020-04-04T09:11:45+00:00 DEBUG <------------------- ExtensionHawk Stripe Payment ( Los Ficos - Charge - Order #224 ) ------------------->
+stdClass Object
+(
+    [id] => ch_1GU82WDwlT5l3TeTPxTHwUAo
+    [amount] => 18
+    [amount_refunded] => 0
+    [currency] => MXN
+    [order_amount] => 18.00
+    [order_currency] => MXN
+    [captured] => Captured
+    [transaction_id] => txn_1GU82XDwlT5l3TeT6J3mrxru
+    [mode] => Test
+    [metadata] => stdClass Object
+        (
+            [order_id] => 224
+            [Total Tax] => 0
+            [Total Shipping] => 0.00
+            [Customer IP] => 189.219.76.115
+            [Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+            [Referer] => https://www.jggworks.me/Wordpress_examen_NE/wordpress/index.php/checkout/
+            [WP customer #] => 0
+            [Billing Email] => sb-2vw47h1277314@personal.example.com
+            [Products] => Atún Tuny | 
+        )
+
+    [created] => 2020-04-04 09:11:44
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( credit )
+    [status] => succeeded
+    [origin_time] => 2020-04-04 09:11:45
+)
+
